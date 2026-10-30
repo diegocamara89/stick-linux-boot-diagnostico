@@ -1,0 +1,18 @@
+
+AQUAMAN-USB-DIAG-7F4C91D2
+Linux mainline em RAM; nenhuma particao de armazenamento foi montada.
+Comandos de diagnostico:
+uname -a
+cat /proc/uptime
+tr '\000' ' ' < /sys/firmware/devicetree/base/compatible
+cat /etc/usb-diag-marker
+Linux (none) 7.1.1 #4-postmarketOS SMP PREEMPT Mon Jul  6 21:15:19 UTC 2026 aarch64 Linux
+2.62 7.11
+AQUAMAN-USB-DIAG-7F4C91D2
+xiaomi,aquaman amlogic,s805y amlogic,meson-gxl 
+rootfs / rootfs rw,size=269004k,nr_inodes=67251 0 0
+proc /proc proc rw,relatime 0 0
+sysfs /sys sysfs rw,relatime 0 0
+devtmpfs /dev devtmpfs rw,relatime,size=269004k,nr_inodes=67251,mode=755 0 0
+configfs /sys/kernel/config configfs rw,relatime 0 0
+~ # [6n

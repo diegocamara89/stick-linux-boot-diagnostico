@@ -1,0 +1,3 @@
+# Sem conversao de final de linha: os SHA-256 do README dependem dos bytes exatos.
+* -text
+*.sh text eol=lf
