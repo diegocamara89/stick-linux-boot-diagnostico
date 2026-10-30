@@ -1,0 +1,24 @@
+{
+  "data": "2026-10-07T20:53:54.007548-03:00",
+  "equipamento": "Mi TV Stick aquaman, MiTV-AESP0, PI.832",
+  "metodo": "Fastboot USB, imagem em RAM",
+  "transferencia_completa_confirmada": true,
+  "bytes": 87574528,
+  "imagem_sha256": "2a4a8f11ee1547cafb05902d3d1d23704df2ee38e389c57929bf2abea0e409b4",
+  "comando_boot_aceito": true,
+  "linux_novo_confirmado": false,
+  "resultado_observado": "Android PI.832 voltou a iniciar e responde por ADB USB; kernel Android 4.9",
+  "causa_retorno_android": "Não determinada; o Android não permite ler pstore e não fornece last_kmsg",
+  "consultas_oem_uboot_confirmadas": false,
+  "desbloqueio_executado": false,
+  "flash_executado": false,
+  "erase_executado": false,
+  "saveenv_executado_neste_teste": false,
+  "evidencias": [
+    "fastboot-usb-version-0-boot-ram.json",
+    "SERVIDOR_USB/VALIDACAO_FASTBOOT.json",
+    "android-apos-boot-usb-pc.txt",
+    "driver-fastboot-resultado.json"
+  ],
+  "limite": "OKAY no comando boot confirma aceitação do comando, não sucesso de inicialização do Linux"
+}
